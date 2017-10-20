@@ -1,6 +1,6 @@
 const peerServer = require('peer').PeerServer;
 
-const port = process.env.port || 9000;
+const port = process.env.PORT || 9000;
 
 const server = peerServer({ port: port, path: '/live' }, () => {
     console.log('The peer server is listening on port: ' + port);
