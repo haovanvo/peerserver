@@ -1,13 +1,13 @@
 {
   "name": "peerserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "perr server service",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Edus team",
+  "license": "MIT",
   "devDependencies": {
     "peer": "^0.2.8"
   }
