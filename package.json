@@ -8,7 +8,7 @@
   },
   "author": "Edus team",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "peer": "^0.2.8"
   }
 }
